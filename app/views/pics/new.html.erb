@@ -11,6 +11,8 @@
 		<%= f.input :learned, label: 'What did you learn', placeholder: 'e.g. HTML5, CSS3, Rails, Ruby, Github, Heroku, etc' %>
 		<br />
 
+		<%= f.input :image, label: 'Upload Your Image', as: :file %>
+		<br />
 		<%= submit_tag 'Save', :class => 'btn btn-warning btn-large' %> 
 </div>
 <% end %>
