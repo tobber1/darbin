@@ -39,6 +39,9 @@ gem 'simple_form'
 gem 'carrierwave'
 
 gem "fog"
+
+gem 'kaminari'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
